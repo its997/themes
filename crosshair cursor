@@ -1,0 +1,273 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset='utf-8'>
+<script type='text/javascript' src='https://code.jquery.com/jquery-1.9.1.min.js'>
+</script>
+<title>Johann F</title>
+   <style type="text/css">
+   
+	* {
+    box-sizing: border-box;
+    }
+    
+    ::-moz-selection { /* Code for Firefox */
+  color: #fff;
+  background: #fff;
+}
+
+::selection {
+  color: #fff;
+  background: #fff;
+}
+    
+html, body {
+     background-image: url("https://static.tumblr.com/hygeayf/tAwqfcfbq/noisegradient.gif");
+    position: fixed; 
+    background-repeat:repeat;
+    text-transform: uppercase;
+    z-index: 100; 
+    top: 50%; 
+    left: 50%;
+    bottom: 50%; 
+    right: 50%; 
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+	color: #fff; 
+    padding: 5.8rem;
+    margin: 0rem;
+    -webkit-text-size-adjust: 100%;
+    font-family: "font", "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; 
+    font-weight:500; 
+    font-stretch:normal;
+    letter-spacing: 0px;
+    line-height:100%;
+    	     cursor:none;
+    }
+    a {  
+	color: #fff;
+	    mix-blend-mode: difference;  
+	transition:color 0.5s ease-in-out;
+	text-decoration: none;
+	     cursor: crosshair
+    }
+
+    a:hover {
+    color: #fff;
+    text-transform: none;
+        mix-blend-mode: difference;  
+        	  text-shadow: 0px 0px 10px #fff;
+        	       cursor: none
+    }
+    .txt {    
+            mix-blend-mode: difference; 
+        	font-size: 10vh;
+    text-align: center;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    }
+    
+        .txtbttm {    
+            mix-blend-mode: difference; 
+            text-transform: none;
+        	font-size: 1.5vh;
+    text-align: center;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    }
+    
+    }
+
+
+
+#crosshair-h {
+  width: 100%;
+  
+}
+
+#crosshair-h {
+  width: 100%;
+}
+
+#crosshair-v {
+  height: 100%;
+}
+
+.hair {
+    mix-blend-mode: difference; 
+  position: fixed;
+  top:0; left:0;
+  margin-top: 0px;
+  margin-left: 0px;
+  background: transparent;
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+  pointer-events: none;
+  z-index: 99999999999999;
+}
+
+#mousepos {
+    mix-blend-mode: difference; 
+  position: absolute;
+  top:0; left:0;
+  padding: 10px;
+  margin: 10px;
+  font: 14px arial;
+  color: #fff;
+  background: rgba(0,0,0,0.5);
+  border-radius: 24px;
+  z-index: 2;
+}
+            /* Custom CSS */
+            {CustomCSS}
+            			* {
+			font-family: 'font'; 
+		}
+		@font-face {
+    font-family: "font";
+    src: url(https://static.tumblr.com/hygeayf/3AEqfcb96/ls-alt-800.ttf);
+		}
+		  img{
+mix-blend-mode: difference;  
+position: fixed; 
+z-index: 100; 
+top: 50%; 
+left: 50%; 
+transform: translate(-50%, -50%);
+width: 100vw;
+height: 100vh;
+pointer-events: none;
+  }
+
+
+		
+    </style>
+</head>
+<body>
+<script id="crosshair_cursor">
+    $(document).ready(function () {
+  // Setup our variables
+  var cH = $('#crosshair-h'),
+  cV = $('#crosshair-v');
+
+  $(this).on('mousemove touchmove', function (e) {
+    var x = e.pageX - 1;
+    var y = e.clientY - 1;
+    cH.css('top', e.pageY);
+    cV.css('left', e.pageX);
+
+    $('#mousepos').css({
+      top: e.clientY,
+      left: e.pageX },
+    800);
+    $('#mousepos');
+    e.stopPropagation();
+  });
+
+  // Anchor Hover Effects
+  $("a").hover(function () {
+    $(".hair").stop().css({ borderColor: "#fff" }, 800);},
+  function () {
+    $(".hair").stop().css({ borderColor: "white" }, 800);
+  });
+  e.stopPropagation();
+});
+    //# sourceURL=pen.js
+  </script>
+  
+<script id="crosshair_cursor">
+  </script>
+<div id="crosshair-v" class="hair"></div>
+<div id="crosshair-h" class="hair"></div>
+
+<img src="https://github.com/its997/SVG/raw/master/ƒ.svg">
+
+<div class="txtbttm"
+                  style="text-align:left;">
+<br>
+<br>
+<br>
+<br>
+© 1993
+<br>
+<br>
+
+<div class="txt"
+                  style="border-right: 1px solid;
+                        border-left: 1px solid;
+                        text-align:right;
+                        line-height:75%;
+                        letter-spacing:-0.045em;
+                        padding-right: 1rem;">
+Johann
+<br>
+Freitas
+
+</div>
+
+<div class="txtbttm"
+                  style="border-right: 1px solid;
+                        text-align:left;">
+                        
+<a href="https://static.tumblr.com/hygeayf/AVrqgv060/drafttab.png" target="_blank" rel="noopener">
+<br>
+<br>
+DESIGN
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+</div>
+
+<div class="txtbttm"
+                  style=" border-left: 1px solid;
+                        text-align:right;">
+                                
+<a href="https://en.wikipedia.org/wiki/Fortaleza" target="_blank" rel="noopener">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+CEARÁ—BRASIL
+<br><br><br>
+
+</div>
+
+<div class="txt"
+                  style="border-right: 1px solid;
+                        border-left: 1px solid;
+                        text-align:left;
+                        line-height:75%;
+                        letter-spacing:-0.045em;
+                        padding-left: 0.5rem;">
+                        
+<a href="https://www.instagram.com/johann.freitas/">
+portfolio</a>
+<br>
+
+<a href="mailto:j.freitasteixeira@gmail.com"rel="nofollow"
+                  style="text-decoration:none;">
+mail</a>
+
+</div>
+
+<div class="txtbttm"
+                  style=" text-align:right;">
+<br>
+© 2020
+
+</body>
+</html>
+
+<!--https://static.tumblr.com/hygeayf/3AEqfcb96/ls-alt-800.ttf     /      https://static.tumblr.com/hygeayf/oaNqfjiy9/baltsel.ttf      https://static.tumblr.com/hygeayf/NRfqgktpv/neuehaasgrottext-55roman-web.woff2         /             https://static.tumblr.com/hygeayf/M0Qqfl3dr/haaaaaas.ttf             /         https://static.tumblr.com/hygeayf/NLsqfrcu4/monugroaltmed.ttf                   /         https://static.tumblr.com/hygeayf/Hy0qfr606/nugerstaltbold.ttf            /                https://static.tumblr.com/hygeayf/6ukqfxls5/akzgroalt.ttf                       /  https://static.tumblr.com/hygeayf/WUrqglr2b/akzidenzgroteskpro-regular.ttf         /            https://static.tumblr.com/hygeayf/uSeqgknul/haas.ttf                         /            https://static.tumblr.com/hygeayf/R5Wqgze08/alt-kzidenz.ttf  -->
