@@ -1,19 +1,19 @@
 @font-face {
-    font-family: 'Bretagne Self Modern';
+    font-family: 'fkgronuvar';
     src: url(https://static.tumblr.com/hygeayf/kD8qu6xce/fkgronuvar.woff2) format("woff2");
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
-    font-family: 'Bretagne Self Modern';
+    font-family: 'fkgronuvar';
     src: url(https://static.tumblr.com/hygeayf/kD8qu6xce/fkgronuvar.woff2) format("woff2");
     font-weight: 400;
     font-style: italic
 }
 
 @font-face {
-    font-family: Helvetica;
+    font-family: saolmono;
     src: url(https://static.tumblr.com/hygeayf/c3vqu6xce/saolmono.woff2) format("woff2");
     font-weight: 400;
     font-style: normal
@@ -576,7 +576,7 @@ body {
 }
 
 .title-2 {
-    font-family: Helvetica, sans-serif;
+    font-family: saolmono, sans-serif;
     font-weight: 700;
     line-height: .77em;
     letter-spacing: -.04em;
@@ -664,7 +664,7 @@ h4,
 h5,
 h6,
 ul.slick-dots>li {
-    font-family: Helvetica, sans-serif;
+    font-family: saolmono, sans-serif;
     font-weight: 700;
     letter-spacing: 0;
     text-transform: uppercase;
@@ -2047,11 +2047,11 @@ li.accordion-item.expanded .accordion-content {
 }
 
 .font-sans {
-    font-family: Helvetica, sans-serif
+    font-family: saolmono, sans-serif
 }
 
 .font-serif {
-    font-family: Bretagne Self Modern, serif
+    font-family: fkgronuvar, serif
 }
 
 .font-normal {
@@ -4494,7 +4494,7 @@ body {
     margin: 0;
     padding: 0;
     font-weight: 400;
-    font-family: Bretagne Self Modern, serif;
+    font-family: fkgronuvar, serif;
     color: #000
 }
 
@@ -6641,10 +6641,10 @@ body.scroll-top .home-padding {
         clear: both
     }
     .sm\:font-sans {
-        font-family: Helvetica, sans-serif
+        font-family: saolmono, sans-serif
     }
     .sm\:font-serif {
-        font-family: Bretagne Self Modern, serif
+        font-family: fkgronuvar, serif
     }
     .sm\:font-normal {
         font-weight: 400
@@ -9090,10 +9090,10 @@ body.scroll-top .home-padding {
         clear: both
     }
     .md\:font-sans {
-        font-family: Helvetica, sans-serif
+        font-family: saolmono, sans-serif
     }
     .md\:font-serif {
-        font-family: Bretagne Self Modern, serif
+        font-family: fkgronuvar, serif
     }
     .md\:font-normal {
         font-weight: 400
@@ -11539,10 +11539,10 @@ body.scroll-top .home-padding {
         clear: both
     }
     .lg\:font-sans {
-        font-family: Helvetica, sans-serif
+        font-family: saolmono, sans-serif
     }
     .lg\:font-serif {
-        font-family: Bretagne Self Modern, serif
+        font-family: fkgronuvar, serif
     }
     .lg\:font-normal {
         font-weight: 400
@@ -13988,10 +13988,10 @@ body.scroll-top .home-padding {
         clear: both
     }
     .xl\:font-sans {
-        font-family: Helvetica, sans-serif
+        font-family: saolmono, sans-serif
     }
     .xl\:font-serif {
-        font-family: Bretagne Self Modern, serif
+        font-family: fkgronuvar, serif
     }
     .xl\:font-normal {
         font-weight: 400
@@ -16437,10 +16437,10 @@ body.scroll-top .home-padding {
         clear: both
     }
     .xxl\:font-sans {
-        font-family: Helvetica, sans-serif
+        font-family: saolmono, sans-serif
     }
     .xxl\:font-serif {
-        font-family: Bretagne Self Modern, serif
+        font-family: fkgronuvar, serif
     }
     .xxl\:font-normal {
         font-weight: 400
@@ -18886,10 +18886,10 @@ body.scroll-top .home-padding {
         clear: both
     }
     .xxxl\:font-sans {
-        font-family: Helvetica, sans-serif
+        font-family: saolmono, sans-serif
     }
     .xxxl\:font-serif {
-        font-family: Bretagne Self Modern, serif
+        font-family: fkgronuvar, serif
     }
     .xxxl\:font-normal {
         font-weight: 400
@@ -21335,10 +21335,10 @@ body.scroll-top .home-padding {
         clear: both
     }
     .xxxxl\:font-sans {
-        font-family: Helvetica, sans-serif
+        font-family: saolmono, sans-serif
     }
     .xxxxl\:font-serif {
-        font-family: Bretagne Self Modern, serif
+        font-family: fkgronuvar, serif
     }
     .xxxxl\:font-normal {
         font-weight: 400
